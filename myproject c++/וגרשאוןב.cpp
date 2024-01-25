@@ -42,6 +42,7 @@ const int POSSIBLE_ITEM_PLACES_X = MAP_HEIGHT - 3;
 const int POSSIBLE_ITEM_PLACES_Y = MAP_WIDTH - 3;
 int item_pickedup = 0;
 
+
 void DrawMap()
 {
     if (MAP_WIDTH < 121 && MAP_HEIGHT > 3 && MAP_WIDTH > 3)
